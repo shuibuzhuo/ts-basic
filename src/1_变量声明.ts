@@ -26,3 +26,5 @@ function doSomething2() {
 }
 
 doSomething2()
+
+export {}
