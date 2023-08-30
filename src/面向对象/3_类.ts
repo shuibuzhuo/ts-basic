@@ -82,3 +82,5 @@ class Point3 implements IPoint {
     return Math.pow(p.x - this.x, 2) + Math.pow(p.y - this.y, 2)
   }
 }
+
+export {}
