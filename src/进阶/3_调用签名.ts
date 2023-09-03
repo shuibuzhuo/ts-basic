@@ -1,4 +1,4 @@
-// 函数签名
+// 调用签名
 // 第一种写法
 type Add1 = (a: number, b: number) => number
 // 第二种写法
