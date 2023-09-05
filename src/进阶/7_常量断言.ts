@@ -57,6 +57,7 @@ person4.age = 30; // 报错，Cannot assign to 'age' because it is a read-only p
 
 // 对象中的原始类型属性和引用类型属性都可以被转换成 readonly
 /**
+ * 类型
  * const person5: {
     readonly name: "shuibuzhuo";
     readonly age: 20;
