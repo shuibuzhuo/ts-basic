@@ -56,6 +56,17 @@ person4.name = "zhangsan"; // 报错，Cannot assign to 'name' because it is a r
 person4.age = 30; // 报错，Cannot assign to 'age' because it is a read-only property.ts(2540)
 
 // 对象中的原始类型属性和引用类型属性都可以被转换成 readonly
+/**
+ * const person5: {
+    readonly name: "shuibuzhuo";
+    readonly age: 20;
+    readonly friend: {
+        readonly name: "zhangsan";
+        readonly age: 23;
+    };
+    readonly arr: readonly [10, 20, 30];
+}
+ */
 const person5 = {
   name: "shuibuzhuo",
   age: 20,
