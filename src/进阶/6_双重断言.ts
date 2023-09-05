@@ -19,3 +19,5 @@ point3d = person; // 报错，Type 'Person' is missing the following properties 
 person = point3d; // 报错，Type 'Point3D' is missing the following properties from type 'Person': name, emailts(2739)
 // 双重断言
 point3d = person as any as Point3D;
+
+export {};
